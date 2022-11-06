@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>img/clear.jfif</file>
+        <file>img/close.jfif</file>
+        <file>img/copy.jfif</file>
+        <file>img/cut.jfif</file>
+        <file>img/font.jfif</file>
+        <file>img/fontbold.jfif</file>
+        <file>img/fontItalic.jfif</file>
+        <file>img/fontunder.jfif</file>
+        <file>img/new.jfif</file>
+        <file>img/open.jfif</file>
+        <file>img/paste.jfif</file>
+        <file>img/toolbarlab.jfif</file>
+    </qresource>
+</RCC>

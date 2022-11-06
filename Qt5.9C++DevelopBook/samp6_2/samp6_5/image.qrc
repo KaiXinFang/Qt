@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>image/add.jfif</file>
+        <file>image/boy.jfif</file>
+        <file>image/clear.jfif</file>
+        <file>image/clearXX.jfif</file>
+        <file>image/close.jfif</file>
+        <file>image/copy.jfif</file>
+        <file>image/cut.jfif</file>
+        <file>image/font.jfif</file>
+        <file>image/fontbold.jfif</file>
+        <file>image/fontItalic.jfif</file>
+        <file>image/fontunder.jfif</file>
+        <file>image/girl.jfif</file>
+        <file>image/new.jfif</file>
+        <file>image/open.jfif</file>
+        <file>image/paste.jfif</file>
+        <file>image/redX.jpg</file>
+        <file>image/save.jfif</file>
+        <file>image/standleft.jpg</file>
+        <file>image/standmiddle.jpg</file>
+        <file>image/standright.jfif</file>
+        <file>image/toolbarlab.jfif</file>
+    </qresource>
+</RCC>

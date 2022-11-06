@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>image/add.jfif</file>
+        <file>image/bofang.jfif</file>
+        <file>image/boy.jfif</file>
+        <file>image/clear.jfif</file>
+        <file>image/clearXX.jfif</file>
+        <file>image/close.jfif</file>
+        <file>image/copy.jfif</file>
+        <file>image/cut.jfif</file>
+        <file>image/d1.jpg</file>
+        <file>image/d2.jpg</file>
+        <file>image/d3.jpg</file>
+        <file>image/d4.jpg</file>
+        <file>image/d5.jpg</file>
+        <file>image/d6.jpg</file>
+        <file>image/font.jfif</file>
+        <file>image/fontbold.jfif</file>
+        <file>image/fontItalic.jfif</file>
+        <file>image/fontunder.jfif</file>
+        <file>image/girl.jfif</file>
+        <file>image/jieshu.jpg!con</file>
+        <file>image/last.jfif</file>
+        <file>image/new.jfif</file>
+        <file>image/next.jfif</file>
+        <file>image/open.jfif</file>
+        <file>image/paste.jfif</file>
+        <file>image/Redo.jpg</file>
+        <file>image/redX.jpg</file>
+        <file>image/save.jfif</file>
+        <file>image/senery.jfif</file>
+        <file>image/sound.jfif</file>
+        <file>image/standleft.jpg</file>
+        <file>image/standmiddle.jpg</file>
+        <file>image/standright.jfif</file>
+        <file>image/tingzhi.jpg!ys</file>
+        <file>image/toolbarlab.jfif</file>
+        <file>image/Undo.png</file>
+        <file>image/zanting.jfif</file>
+    </qresource>
+</RCC>

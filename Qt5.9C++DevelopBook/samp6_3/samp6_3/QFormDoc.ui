@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QFormDoc</class>
+ <widget class="QWidget" name="QFormDoc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>705</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>112</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actOpen">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/open.jfif</normaloff>:/img/image/open.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actCut">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/cut.jfif</normaloff>:/img/image/cut.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>剪切</string>
+   </property>
+  </action>
+  <action name="actCopy">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/copy.jfif</normaloff>:/img/image/copy.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>复制</string>
+   </property>
+  </action>
+  <action name="actPaste">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/paste.jfif</normaloff>:/img/image/paste.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>粘贴</string>
+   </property>
+  </action>
+  <action name="actFont">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/font.jfif</normaloff>:/img/image/font.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>字体</string>
+   </property>
+  </action>
+  <action name="actClose">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/close.jfif</normaloff>:/img/image/close.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </action>
+  <action name="actUndo">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/Undo.png</normaloff>:/img/image/Undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </action>
+  <action name="actRedo">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/Redo.jpg</normaloff>:/img/image/Redo.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>重复</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

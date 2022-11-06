@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myMainWindow</class>
+ <widget class="QMainWindow" name="myMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>myMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>QFile直接 操作</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QPlainTextEdit" name="textEditDevice"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>  QTextStream操作</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QPlainTextEdit" name="textEditStream"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actOpen_IODevice"/>
+   <addaction name="actSave_IODevice"/>
+   <addaction name="separator"/>
+   <addaction name="actOpen_OnStream"/>
+   <addaction name="actSave_OnStream"/>
+   <addaction name="separator"/>
+   <addaction name="actExit"/>
+  </widget>
+  <action name="actOpen_IODevice">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/boy.jfif</normaloff>:/img/image/boy.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>QFile直接打开</string>
+   </property>
+  </action>
+  <action name="actSave_IODevice">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/boy.jfif</normaloff>:/img/image/boy.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>QFile另存</string>
+   </property>
+  </action>
+  <action name="actOpen_OnStream">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/girl.jfif</normaloff>:/img/image/girl.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>QStreamText打开</string>
+   </property>
+  </action>
+  <action name="actSave_OnStream">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/girl.jfif</normaloff>:/img/image/girl.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>QStreamText另存</string>
+   </property>
+  </action>
+  <action name="actExit">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/redX.jpg</normaloff>:/img/image/redX.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myMainWindow</class>
+ <widget class="QMainWindow" name="myMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>382</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>myMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>服务器地址：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="4">
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item row="0" column="4">
+       <widget class="QSpinBox" name="spinBox"/>
+      </item>
+      <item row="1" column="4">
+       <widget class="QPushButton" name="btnSend">
+        <property name="text">
+         <string>发送消息</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>端口：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="2">
+       <widget class="QComboBox" name="comboServer"/>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actConnect"/>
+   <addaction name="actDisconnect"/>
+   <addaction name="actClear"/>
+   <addaction name="separator"/>
+   <addaction name="actExit"/>
+  </widget>
+  <action name="actConnect">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/boy.jfif</normaloff>:/img/image/boy.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>连接到服务器</string>
+   </property>
+  </action>
+  <action name="actDisconnect">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/girl.jfif</normaloff>:/img/image/girl.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>断开连接</string>
+   </property>
+  </action>
+  <action name="actClear">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/clear.jfif</normaloff>:/img/image/clear.jfif</iconset>
+   </property>
+   <property name="text">
+    <string>清空文本框</string>
+   </property>
+  </action>
+  <action name="actExit">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/img/image/redX.jpg</normaloff>:/img/image/redX.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

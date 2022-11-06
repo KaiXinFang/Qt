@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>image/boy.jfif</file>
+        <file>image/girl.jfif</file>
+        <file>image/open.jfif</file>
+        <file>image/redX.jpg</file>
+        <file>image/toolbarlab.jfif</file>
+        <file>image/senery.jfif</file>
+        <file>image/close.jfif</file>
+        <file>image/copy.jfif</file>
+        <file>image/cut.jfif</file>
+        <file>image/font.jfif</file>
+        <file>image/paste.jfif</file>
+        <file>image/Redo.jpg</file>
+        <file>image/Undo.png</file>
+    </qresource>
+</RCC>
